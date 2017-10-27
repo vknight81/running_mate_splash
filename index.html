@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Runnnnnn</title>
+	<meta name="keywords" content="running, jogging, 5k, half-marathon, marathon">
+	<meta name="description" content="Compare your running times with joggers in your area.">
+  <style>
+
+.layer{
+    /*code in .layer allows background image to be responsive in CSS (excluding the font-family property)*/
+    background-image:url(background_11.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    font-family:'Roboto', sans-serif;
+    
+}
+#title{
+  color:white;
+  font-size:80px;
+  font-style: italic;
+  font-family:'Roboto', sans-serif;
+}
+
+#tagline{
+  color: white;
+  font-size:32px;
+  font-family:'Roboto', sans-serif;
+}
+
+#secondRow{
+  margin-top: 60px;
+}
+
+
+#statement{
+  color:white;
+  font-size:14px;
+  font-family:'Roboto', sans-serif;
+}
+  footer{
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+  }
+
+  </style>
+	<!-- Latest compiled and minified CSS & JS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css" media="screen" title="no title">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,900i" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="handlebars-v4.0.2.js"></script>
+</head>
+<body class="layer">
+  
+<div class="container-fluid text-center"> 
+  <div class="row content">
+    <div class="col-sm-12 text-center runMate" > 
+      <div class="row">
+  
+        <div class="col-sm-12">
+          <p id="title">Running Mate</p>
+          <p id="tagline">Run Into New Friends</p>
+        </div>
+      </div>
+
+  <!-- BODY -->
+        <div class="row" id="secondRow">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6" id="runMate"> 
+
+        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-ok"></span>Register</button>
+        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-log-in"></span> Sign In</button>
+
+        <hr>
+        <p id="statement">Run comparison tool to connect with friends. Developed with Handlebars JS, Express, Node, and MySQL as the DB. Complete front end splash page design and development.</p>
+        </div>
+        <div class="col-sm-3"></div>
+        </div>
+
+      
+    </div> 
+  </div>
+</div>
+
+<script src="" type="text/javascript"></script>
+
+
+<footer class="container-fluid text-center">
+  <p>2017 Copyright &copy;</p>
+  </footer>
+
+</body>
+</html>
